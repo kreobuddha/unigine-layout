@@ -1,0 +1,80 @@
+<!-- Rustam Ishmukhametov <kreobuddha@gmail.com> -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normolize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>UNIGINE task-1</title>
+  </head>
+  <body>
+  
+    <div id="app">
+      <header class="header">
+        <div class="header__logo-container display-inline-block">
+          <a href="./index.html" class="header__logo-link">
+            <img src="./images/logo.svg" alt="unigine" class="logo">
+          </a>
+        </div>
+      </header>
+  
+      <main class="main">
+        <div class="content container content--bg-pic">
+          <div class="content-inner ta-right">
+            <a href="#" class="content__hook-for-update"></a>
+
+            <section class="section__form box-shadow display-inline-block">
+              <h2 class="form__title">Sign in</h2>
+              <form action="#" class="form">
+                <p class="form__group">
+                  <input class="form__input" type="text" id="login" value="turn_thom@testmail.com" placeholder="Login" name="login">
+                  <label for="login" class="form__label">Login</label>
+                </p>
+                
+                <p class="form__group form__group--password">
+                  <input class="form__input" type="password" id="password" value="" placeholder="Password" name="password">
+                  <label for="login" class="form__label visually-hidden">Password</label>
+                </p>
+                
+                <p class="form__group form__group--checkbox">
+                  <label class="login-checkbox">
+                    <input type="checkbox" class="visually-hidden" name="remember">
+                    <span class="checkbox-indicator"></span>
+                    Remember Me
+                  </label>
+                </p>
+                
+                <p class="form__group form__group--select">
+                  <select name="server" id="server" class="form__select">
+                    <option value="1" selected>Global</option>
+                    <option value="2">Ipsum dolor.</option>
+                    <option value="3">Lorem, ipsum.</option>
+                    <option value="4">Lorem, ipsum.</option>
+                  </select>
+                  <label for="server" class="form__label">Server</label>
+                </p>
+
+                <button type="submit" class="button button--big">Sign in</button>
+              </form>
+              <div class="form__links sp-justify">
+                <a href="#" class="form__link display-inline-block">Forgot Password?</a>
+                <a href="#" class="form__link display-inline-block">Go Offline</a>
+              </div>
+              <div class="form__links form__links--last">
+                <a href="#" class="form__link form__link--options"><span>Options</span></a>
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </main>
+  
+  
+  
+    </div>
+  
+    <script src="./script.js"></script>
+  </body>
+  </html>
